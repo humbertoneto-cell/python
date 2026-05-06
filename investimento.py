@@ -6,10 +6,11 @@ investimento = inicio * 1.01
 while continua:
         print(f"O seu investimento está em R${investimento:.2f}")
         extra = input("Deseja continuar investindo? (s/n) ")
-        if extra.lower() == "n":
-            continua = False
         if extra.lower() == "s" or "":
             continue
-
+        else:
+            break
+            print(f"O seu investimento rendeu R${investimento}") 
+        
         investimento += inicio 
         investimento *= 1.01

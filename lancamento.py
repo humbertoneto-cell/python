@@ -7,4 +7,5 @@ while segundos >= 0:
     time.sleep(1)
     segundos -= 1
 
+print()
 print('\n', "Lançamento realizado com sucesso!")
