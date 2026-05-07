@@ -26,7 +26,3 @@ def  mito_financeiro():
         print("MITO FINANCEIRO: O empréstimo é a solução perfeita para problemas financeiros.")
     elif numeros == 5:
         print("MITO FINANCEIRO: O investimento em imóveis é o caminho para a riqueza.")
-
-fato_financeiro()
-print()
-mito_financeiro()
