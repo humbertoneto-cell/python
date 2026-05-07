@@ -7,4 +7,6 @@ def alertabets():
     print("As casas de apostas são desenhadas para lucrar,\ncom margens que frequentemente retêm 7% a 15% de todo o dinheiro depositado.")
     print()
 
-alertabets()
+
+if __name__ == "__main__":
+    alertabets()

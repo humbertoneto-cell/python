@@ -5,4 +5,5 @@ def dica_do_dia():
     fatomito.mito_financeiro()
 
 
+print()
 dica_do_dia()

@@ -9,3 +9,7 @@ def cabecalho_bonito():
     print("=" * 50)
     print(" " * 21 + "BCC BANK" + " " * 21)
     print("=" * 50)
+
+
+if __name__ == "__main__":
+    limpar_tela()
